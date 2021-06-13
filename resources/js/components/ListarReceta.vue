@@ -3,28 +3,26 @@
         <div class="row">
             <div class="col-12 col-sm-8 mx-auto">
                 <div class="card mb-4">
-                                <tr v-for="receta in recetas" v-bind:key="receta.id">
-                                    <div class="card-group my-3">
-                                        <div class="card bg-light mr-4 ml-4">
-                                            <img :src="receta.imagen" class="card-img-top" height="500" width="350">
-                                            <div class="card-body">
-                                                <h5 class="card-title">{{receta.nombre}}</h5>
-                                                <p class="card-text">Descripción: <span >{{receta.descripcion}}</span></p>
-                                                <p class="card-text">Ingredientes: <span >{{receta.ingredientes}}</span></p>
-                                                <p class="card-text">Tiempo de Preparación: <span >{{receta.tpreparacion}}</span></p>
-                                                <p class="card-text">Dificultad: <span >{{receta.dificultad}}</span></p>
-                                            </div>
-                                            <div class="card-footer">
-                                                <small class="text-muted">Publicado hace 3 minutos por Usuario</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </tr>
+                    <tr v-for="receta in recetas" v-bind:key="receta.id">
+                        <div class="card-group my-3">
+                            <div class="card bg-light mr-4 ml-4">
+                                <img :src="receta.imagen" class="card-img-top" height="500" width="350">
+                                <div class="card-body">
+                                    <h5 class="card-title">{{receta.nombre}}</h5>
+                                    <p class="card-text">Descripción: <span >{{receta.descripcion}}</span></p>
+                                    <p class="card-text">Ingredientes: <span >{{receta.ingredientes}}</span></p>
+                                    <p class="card-text">Tiempo de Preparación: <span >{{receta.tpreparacion}}</span></p>
+                                    <p class="card-text">Dificultad: <span >{{receta.dificultad}}</span></p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted">Publicado hace 3 minutos por Usuario</small>
+                                </div>
+                            </div>
+                        </div>
+                    </tr>
                 </div>
             </div>
         </div> 
-
-        
     </div>
 </template>
 
@@ -60,7 +58,6 @@
                         this.recetas = response.data;
                     })
                     .catch(err=>console.log(err));
-                    
             },
             addUpdateReceta(){                
 
@@ -77,7 +74,6 @@
                             this.getRecetas();
                         })
                         .catch(err=>console.log(err));
-
                 }else{
                     fetch('/api/receta/',{
                         method: 'put',
@@ -92,8 +88,6 @@
                         })
                         .catch(err=>console.log(err));
                 }
-
-
             },
             deleteReceta(id){
                 fetch('/api/receta/' + id,{
@@ -104,20 +98,18 @@
                         this.getRecetas();
                     })
                     .catch(err=>console.log(err));
-
             },
             updateReceta(Receta){
                 this.update =true;
                 this.receta.id = receta.id;
                 this.receta.receta_id = receta.id;
                 this.receta.nombre = receta.nombre;
-                this.receta.nombre = receta.descripcion;
+                this.receta.descripcion = receta.descripcion;
                 this.receta.ingrediente = receta.ingrediente;
                 this.receta.tpreparacion = receta.tpreparacion;
                 this.receta.dificultad = receta.dificultad;
                 this.receta.imagen = receta.imagen;
                 this.receta.estado = receta.estado;
-
             }
         }
     };
