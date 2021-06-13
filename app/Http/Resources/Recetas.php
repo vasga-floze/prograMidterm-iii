@@ -18,10 +18,12 @@ class Recetas extends JsonResource
        return[
            'id'=>$this->id,
            'nombre'=>$this->nombre,
+           'descripcion'=>$this->descripcion,
            'ingredientes'=>$this->ingredientes,
            'tpreparacion'=>$this->tpreparacion,
            'dificultad'=>$this->dificultad,
            'imagen'=>$this->imagen,
+           'estado'=>$this->estado,
 
        ];
     }
