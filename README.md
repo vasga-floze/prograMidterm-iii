@@ -1,3 +1,10 @@
+## EJECUTAR ESTA APLICACION POR PRIMERA VEZ
+- Agregar la base de datos y contraseña en el archivo de configuración .env
+- Instalar los paquetes de composer con el comando: ``` composer install ```
+- Ejecutar las migraciones con el comando: ``` php artisan migrate```
+- Generar la clave de cifrado de la aplicación con el comando: ```php artisan key: generate```
+- Ahora solo resta levantar el servidor de artisan con el comando: ```php artisan serve```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
