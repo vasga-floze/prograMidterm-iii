@@ -19,7 +19,17 @@ window.Vue = require('vue').default;
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('guess-component', require('./components/Guess.vue').default);
+Vue.component('listar-recetas', require('./components/ListarReceta.vue').default);
+
+/*Registra componente de la barra de navegación*/
+Vue.component('navegacion-bar', require('./components/NavegacionMenu.vue').default);
+/*Registra componente de perfil*/
+Vue.component('perfil-usuario', require('./components/Perfil.vue').default);
+/*Registra componente de recetario*/
+Vue.component('recetario-component', require('./components/Recetario.vue').default);
+/*Registra componente de favoritos*/
+Vue.component('favorite-component', require('./components/Favorito.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
