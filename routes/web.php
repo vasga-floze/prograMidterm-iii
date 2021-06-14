@@ -21,3 +21,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/perfil', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
+Route::get('/recetario', [App\Http\Controllers\RecetarioController::class, 'index'])->name('recetario');
