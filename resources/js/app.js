@@ -26,6 +26,10 @@ Vue.component('listar-recetas', require('./components/ListarReceta.vue').default
 Vue.component('navegacion-bar', require('./components/NavegacionMenu.vue').default);
 /*Registra componente de perfil*/
 Vue.component('perfil-usuario', require('./components/Perfil.vue').default);
+/*Registra componente de recetario*/
+Vue.component('recetario-component', require('./components/Recetario.vue').default);
+/*Registra componente de favoritos*/
+Vue.component('favorite-component', require('./components/Favorito.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
