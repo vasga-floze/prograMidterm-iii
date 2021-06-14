@@ -2135,6 +2135,9 @@ Vue.component('perfil-usuario', __webpack_require__(/*! ./components/Perfil.vue 
 /*Registra componente de recetario*/
 
 Vue.component('recetario-component', __webpack_require__(/*! ./components/Recetario.vue */ "./resources/js/components/Recetario.vue").default);
+/*Registra componente de favoritos*/
+
+Vue.component('favorite-component', __webpack_require__(/*! ./components/Favorito.vue */ "./resources/js/components/Favorito.vue").default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37574,6 +37577,43 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./resources/js/components/Favorito.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Favorito.vue ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Favorito.vue?vue&type=template&id=3a0f9c11& */ "./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Favorito.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/Guess.vue":
 /*!*******************************************!*\
   !*** ./resources/js/components/Guess.vue ***!
@@ -37813,6 +37853,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Favorito_vue_vue_type_template_id_3a0f9c11___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Favorito.vue?vue&type=template&id=3a0f9c11& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Guess.vue?vue&type=template&id=c5503a08&":
 /*!**************************************************************************!*\
   !*** ./resources/js/components/Guess.vue?vue&type=template&id=c5503a08& ***!
@@ -37894,6 +37951,207 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Recetario_vue_vue_type_template_id_35e049fb___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Recetario_vue_vue_type_template_id_35e049fb___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Recetario.vue?vue&type=template&id=35e049fb& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Recetario.vue?vue&type=template&id=35e049fb&");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Favorito.vue?vue&type=template&id=3a0f9c11& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container pt-3" }, [
+    _c("div", { staticClass: "row justify-content-center" }, [
+      _c("div", { staticClass: "col-md-12" }, [
+        _c("div", { staticClass: "card" }, [
+          _c("h2", { staticClass: "text-center pt-5" }, [
+            _vm._v("Mis Recetas favoritas")
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "card-body px-5 py-3 border-bottom rounded-top" },
+            [
+              _c("div", { staticClass: "row row-cols-1 row-cols-md-3" }, [
+                _c("div", { staticClass: "col mx-auto my-auto" }, [
+                  _c("div", { staticClass: "card shadow" }, [
+                    _c("img", {
+                      staticClass: "card-img-top",
+                      attrs: { src: "./images/like.png", alt: "..." }
+                    })
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col mb-4" }, [
+                  _c("div", { staticClass: "card shadow" }, [
+                    _c("img", {
+                      staticClass: "card-img-top",
+                      attrs: { src: "./images/food.png", alt: "..." }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(0),
+                    _vm._v(" "),
+                    _vm._m(1)
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col mb-4" }, [
+                  _c("div", { staticClass: "card shadow" }, [
+                    _c("img", {
+                      staticClass: "card-img-top",
+                      attrs: { src: "./images/food.png", alt: "..." }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(2),
+                    _vm._v(" "),
+                    _vm._m(3)
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col mb-4" }, [
+                  _c("div", { staticClass: "card shadow" }, [
+                    _c("img", {
+                      staticClass: "card-img-top",
+                      attrs: { src: "./images/food.png", alt: "..." }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(4),
+                    _vm._v(" "),
+                    _vm._m(5)
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "col mb-4" }, [
+                  _c("div", { staticClass: "card shadow" }, [
+                    _c("img", {
+                      staticClass: "card-img-top",
+                      attrs: { src: "./images/food.png", alt: "..." }
+                    }),
+                    _vm._v(" "),
+                    _vm._m(6),
+                    _vm._v(" "),
+                    _vm._m(7)
+                  ])
+                ])
+              ])
+            ]
+          )
+        ])
+      ])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-body" }, [
+      _c("h5", { staticClass: "card-title" }, [_vm._v("Recipe Name")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "card-text" }, [
+        _vm._v(
+          "This is a longer card with supporting text below as a natural lead-in to additional content."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v("Last updated 3 days ago")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-body" }, [
+      _c("h5", { staticClass: "card-title" }, [_vm._v("Recipe Name")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "card-text" }, [
+        _vm._v(
+          "This is a longer card with supporting text below as a natural lead-in to additional content."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v("Last updated 2 weeks ago")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-body" }, [
+      _c("h5", { staticClass: "card-title" }, [_vm._v("Recipe Name")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "card-text" }, [
+        _vm._v(
+          "This is a longer card with supporting text below as a natural lead-in to additional content."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v("Last updated 6 months ago")
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-body" }, [
+      _c("h5", { staticClass: "card-title" }, [_vm._v("Recipe Name")]),
+      _vm._v(" "),
+      _c("p", { staticClass: "card-text" }, [
+        _vm._v(
+          "This is a longer card with supporting text below as a natural lead-in to additional content."
+        )
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card-footer" }, [
+      _c("small", { staticClass: "text-muted" }, [
+        _vm._v("Last updated 1 year ago")
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
 
 
 /***/ }),
@@ -38330,7 +38588,9 @@ var render = function() {
     _c("div", { staticClass: "row justify-content-center" }, [
       _c("div", { staticClass: "col-md-12" }, [
         _c("div", { staticClass: "card" }, [
-          _c("h2", { staticClass: "text-center" }, [_vm._v("Mis Recetas")]),
+          _c("h2", { staticClass: "text-center pt-5" }, [
+            _vm._v("Mis Recetas")
+          ]),
           _vm._v(" "),
           _c(
             "div",

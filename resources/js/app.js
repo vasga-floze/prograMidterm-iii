@@ -28,6 +28,8 @@ Vue.component('navegacion-bar', require('./components/NavegacionMenu.vue').defau
 Vue.component('perfil-usuario', require('./components/Perfil.vue').default);
 /*Registra componente de recetario*/
 Vue.component('recetario-component', require('./components/Recetario.vue').default);
+/*Registra componente de favoritos*/
+Vue.component('favorite-component', require('./components/Favorito.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
